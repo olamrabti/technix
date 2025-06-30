@@ -56,12 +56,12 @@ const HeroSection = () => {
             <FloatingElement className="absolute bottom-40 right-1/4 w-5 h-5 bg-accent/20 rounded-full" duration={6} delay={3} />
 
             {/* UM6P-TechniX Logo - Center Right */}
-            <div className="absolute top-1/2 right-8 transform -translate-y-1/2 z-20 flex items-center justify-end">
+            <div className="absolute top-1/2 right-4 md:right-8 transform -translate-y-1/2 z-20 flex items-center justify-end w-32 sm:w-40 md:w-56 lg:w-72 xl:w-80">
                 <FloatingElement duration={4} delay={0}>
                     <img
                         src={um6pLogo}
                         alt="UM6P TechniX"
-                        className="h-20 md:h-24 lg:h-32 opacity-90 hover:opacity-100 transition-opacity duration-300 drop-shadow-lg filter brightness-0 invert"
+                        className="w-full max-w-full h-auto opacity-90 hover:opacity-100 transition-opacity duration-300 drop-shadow-lg filter brightness-0 invert"
                     />
                 </FloatingElement>
             </div>
