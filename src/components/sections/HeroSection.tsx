@@ -83,7 +83,8 @@ const HeroSection = () => {
             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20">
                 <button
                     onClick={scrollToOverview}
-                    className="group text-white/80 hover:text-white transition-all duration-300 flex flex-col items-center space-y-2 bg-white/10 backdrop-blur-sm rounded-full  hover:bg-white/20"
+                    className="text-white"
+                // className="group text-white/80 hover:text-white transition-all duration-300 flex flex-col items-center space-y-2 bg-white/10 backdrop-blur-sm rounded-full  hover:bg-white/20"
                 >
                     <span className="text-sm uppercase tracking-wider">&nbsp;</span>
                     <div className="animate-bounce group-hover:animate-pulse w-20  flex justify-center">

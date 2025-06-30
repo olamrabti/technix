@@ -21,7 +21,7 @@ const CountdownTimer = ({ isHero = false, size = 'normal' }: CountdownTimerProps
     });
 
     useEffect(() => {
-        const targetDate = new Date('2025-12-01T09:00:00+01:00');
+        const targetDate = new Date('2025-09-30T09:00:00+01:00');
 
         const updateTimer = () => {
             const now = new Date().getTime();

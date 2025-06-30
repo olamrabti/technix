@@ -30,7 +30,7 @@ const Index = () => {
                 caption="Industry leaders connecting with cutting-edge technology"
             /> */}
 
-            <KeyHighlights />
+            {/* <KeyHighlights /> */}
             <CountdownSection />
             <AboutOrganizers />
 
@@ -42,8 +42,8 @@ const Index = () => {
                 caption="Collaborative innovation driving Africa's industrial future"
             /> */}
 
-            <WhyAttend />
-            <VenueSection />
+            {/* <WhyAttend /> */}
+            {/* <VenueSection /> */}
 
             {/* Image between VenueSection and AgendaTeaser */}
             {/* <ImageSection
@@ -53,7 +53,7 @@ const Index = () => {
                 caption="Innovation and technology at the heart of manufacturing"
             /> */}
 
-            <AgendaTeaser />
+            {/* <AgendaTeaser /> */}
 
             {/* Image between AgendaTeaser and SpeakersTeaser */}
             {/* <ImageSection
@@ -63,9 +63,9 @@ const Index = () => {
                 caption="Networking and knowledge exchange at the summit"
             /> */}
 
-            <SpeakersTeaser />
-            <Exhibitors />
-            <RegistrationSection />
+            {/* <SpeakersTeaser /> */}
+            {/* <Exhibitors /> */}
+            {/* <RegistrationSection /> */}
             <Footer />
             <ScrollToTop />
         </div>

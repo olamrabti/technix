@@ -19,7 +19,7 @@ const CountdownSection = () => {
                         Summit Countdown
                     </h2>
                     <p className="text-xl text-white/80 mb-12 animate-slide-in-left">
-                        December 1st, 2025 • 09:00 AM UTC+1
+                        September 30, 2025 UTC+1.
                     </p>
 
                     <CountdownTimer size="large" />
